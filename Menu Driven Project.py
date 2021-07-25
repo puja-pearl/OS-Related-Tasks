@@ -17,8 +17,8 @@ Press 8: To try the tasks again.
 Press 9: To Exit the tasks.\n '''
 
 def internet_access():
-    result=os.system("ping -n 5 8.8.8.8")
-    if(result==0):
+    result=os.system("ping -n 5 2001:4860:4860::8888")          #IPv4 Google DNS: 8.8.8.8 and IPv6 Google DNS: 2001:4860:4860::8888
+    if(result==0):                                              #Here we are using IPv6 Google DNS for checking the internet connection.
         print("Internet is Working.")
     else:
         print("Internet is not working.\nCheck the internet connection and try again.")
