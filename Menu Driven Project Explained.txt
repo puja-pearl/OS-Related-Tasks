@@ -1,41 +1,81 @@
 Intro part of project:
-*Implementation Of Python Code For Achieving Various OS-related Tasks By Interacting With The Operating System.* where A Menu Driven program
-which offers various OS-related tasks using built-in OS module that provides various libraries such as system(), platform() and etc.
-Also, The Automate Youtube search through Python is shown in this project.
+*Implementation Of Python Code For Achieving 
+Various OS-related Tasks By Interacting With 
+The Operating System.* where A Menu Driven program
+which offers various OS-related tasks using 
+built-in OS module that provides various libraries
+ such as system(), platform() and etc.
+Also, The Automate Youtube search through Python
+ is shown in this project.
 
 Explanation of the project:
-This project is based on basic python code where i've used two modules i.e OS Module & Webbrowser Module.
+This project is based on basic python code where 
+i've used two modules i.e OS Module & Webbrowser
+ Module.
 
-#OS Module in Python provides functions for interacting with the operating system. This module provides a portable way of using operating system
+#OS Module in Python provides functions for interacting 
+with the operating system. This module provides a 
+portable way of using operating system
 dependent functionality such as
-- os.getcwd() which provides the current working directory (cwd) of the system.
-- os.mkdir() | os.rmdir() | os.chdir() | os.listdir() which helps to make directory | remove directory | change directory | list of directory (directory means folder).
-- os.system() method execute the command (a string) in a subshell. Whenever this method is used then the respective shell of the Operating system is opened and
+- os.getcwd() which provides the current working 
+directory (cwd) of the system.
+- os.mkdir() | os.rmdir() | os.chdir() | os.listdir()
+ which helps to make directory | remove directory |
+Change directory | list of directory (directory means folder).
+- os.system() method execute the command (a string) 
+in a subshell. Whenever this method is used then the
+ respective shell of the Operating system is opened and
 the command is executed on it.
 
-In this project, I've mainly used System.os to perform various tasks. I've provided a menu options which consist of 9 different choices. The tasks are:
+In this project, I've mainly used System.os to 
+perform various tasks. I've provided a menu options 
+which consist of 9 different choices. The tasks are:
 1. checking internet connection
 2. running task manager
 3. calculator
 4. MS Paint
 5. MS Word
-Before executing these tasks, user needs to make sure that he/she has the proper .exe files in System32 directory of C Folder. Incase the file is missing from
-the location then it display a message TRY AGAIN. These are the tasks which we can execute without having the internet connection. Further, I've also provided
+Before executing these tasks, user needs to make
+sure that he/she has the proper .exe files in 
+System32 directory of C Folder. Incase the file 
+is missing from
+the location then it display a message TRY AGAIN.
+These are the tasks which we can execute without 
+Having the internet connection. Further, I've also provided
 two more chocies which requires the proper internet connection. 
 1. google search
 2. youtube search
-We can check the internet connection by pinging 8.8.8.8 IP Address which is Google Public DNS.
+We can check the internet connection by pinging 
+8.8.8.8 IP Address which is Google Public DNS.
 
-For performing these two tasks, i've imported another module i.e Webbrowser Module.
-#Webbrowser Module in Python provides a high-level interface which allows displaying Web-based documents to users. It runs the by default system webbrowser for 
-further tasks. The functions that comes under the webbrowser module can be checked through "dir(webbrowser)" which will display all the functionality of webbrowser.
-In my code, i've used webbrowser.open() to open the specific URL to perform my tasks.
+For performing these two tasks, i've imported 
+another module i.e Webbrowser Module.
+#Webbrowser Module in Python provides a high-level 
+interface which allows displaying Web-based documents 
+to users. It runs the by default system webbrowser for 
+further tasks. The functions that comes under the 
+webbrowser module can be checked through "dir(webbrowser)"
+ which will display all the functionality of webbrowser.
+In my code, i've used webbrowser.open() to open the
+ specific URL to perform my tasks.
 
-I took the input from the user, whatever the user wants to search on Google & youtube at a time. After that i framed the input in the search url of the particular
-platforms by using the .format() function of the string and generated a new string which consist of the exact search URL according to the user. After applying all
-the required concept & logic, i was able to frame different different functions for all the different choices. User can call the desired functions as per his/her
-requirement.. I've used While Loop to show the choices n-times as per the user's wish. To exit the loop, user can select the last option which will display the
-total no. of executions and developer's details. That's all from my end regarding this project. Thank you.
+I took the input from the user, whatever the user
+ wants to search on Google & youtube at a time. 
+After that i framed the input in the search url 
+of the particular
+platforms by using the .format() function of the 
+string and generated a new string which consist of
+the exact search URL according to the user. After
+applying all
+the required concept & logic, i was able to frame
+different different functions for all the different
+Choices. User can call the desired functions as per
+his/her requirement.. I've used While Loop to show 
+the choices n-times as per the user's wish. To exit 
+The loop, user can select the last option which will 
+display the total no. of executions and developer's d
+details. That's all from my end regarding this project. 
+Thank you.
 
 Questions:
 
